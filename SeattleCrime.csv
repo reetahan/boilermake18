@@ -1,35 +1,36 @@
-North Beach/Greenwood, 21, 271
-North Gate/Lake City, 51, 519
-Ballard, 61, 552
-Fremont/Phinney Ridge, 11, 222
-Olympic Hills, 21, 247
-University District, 33, 417
-Magnolia, 0, 37
-Queen Anne/Cascade, 8, 127
-Capitol Hill/Seattle Metro, 2, 117
-Downtown, 329, 4269
-Central Seattle, 62, 466
-West Seattle, 4, 93
-Delridge, 13, 213
-Georgetown, 16, 194
-Beacon Hill, 8, 46
-Rainier Valley, 34, 330
-Tukwila, 544, 2192
-Renton, 418, 504
-Snoqualmie, 6, 11
-Burien, 402, 4032
-Federal Way, 244, 1235
-Kent, 900, 4223
-Auburn, 364, 2550
-Issaquah,  288, 864
-Bellevue, 929, 3311
-Redmond, 264, 1649
-Kirkland, 579, 1640
-Shoreline, 2700, 11485
-Edmonds, 1990, 4228
-Lynnwood, 4357, 9642
-Mountlake Terrace, 3798, 9717
-Newcastle, 521, 1296
-Fairwood, 87, 1554
-Mercer Island, 50, 554
-Bainbridge Island, 42, 99
+Neighborhood,Violent Crime,Non-Violent Crime
+North Beach/Greenwood,0.000137524558,0.001774721676
+North Gate/Lake City,0.01190754144,0.1211767453
+Ballard,0.002703421379,0.02446374756
+Fremont/Phinney Ridge,0.0001571428571,0.003171428571
+Olympic Hills,0.002515873967,0.02959146999
+University District,0.000825,0.010425
+Magnolia,0,0.002193112441
+Queen Anne/Cascade,0.0002857142857,0.004535714286
+Capitol Hill/Seattle Metro,0.00004610206998,0.002696971094
+Downtown,0.008891891892,0.1153783784
+Central Seattle,0.003669724771,0.02758212489
+West Seattle,0.0001481481481,0.003444444444
+Delridge,0.003266331658,0.05351758794
+Georgetown,0.008,0.097
+Beacon Hill,0.0005,0.002875
+Rainier Valley,0.0009906471257,0.009615104455
+Tukwila,0.02704583872,0.1096
+Renton,0.004123141874,0.0497144379
+Snoqualmie,0.0004444444444,0.0008148148148
+Burien,0.007882352941,0.07905882353
+Federal Way,0.002523267839,0.01273195876
+Kent,0.006976744186,0.03273643411
+Auburn,0.0056875,0.03984375
+Issaquah,0.007783783784,0.02335135135
+Bellevue,0.006431558251,0.02292237822
+Redmond,0.004125,0.025765625
+Kirkland,0.006532776712,0.01850389259
+Shoreline,0.04821428571,0.2050892857
+Edmonds,0.04738095238,0.1006666667
+Lynnwood,0.1146578947,0.2537368421
+Mountlake Terrace,0.1808571429,0.4627142857
+Newcastle,0.04736363636,0.1178181818
+Fairwood,0.004578947368,0.08178947368
+Mercer Island,0.002,0.02216
+Bainbridge Island,0.00175,0.004125
