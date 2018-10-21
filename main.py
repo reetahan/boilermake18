@@ -10,6 +10,20 @@ def main():
     weight_list = []
     other_info = []
 
+    '''DEFAULT VALUES'''
+    airQualNum = 5
+    crimeNum = 5
+    hospNum = 5
+    park_sum = 5
+    incomeVal = 90000
+    incomeNum = 5
+    polParty = 'democrat'
+    polPartyWeight = 5
+    kidAge = 0
+    kidsNum = 0
+    schoolWeight = 5
+    '''DEFAULT VALUES'''
+
     airQualNum = input('Air Quality Weight?')
     weight_list.append(int(airQualNum))
 
