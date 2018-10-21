@@ -44,24 +44,26 @@
                         <h2><strong>Priority 1 - 10</strong></h2>
                     </div>
                     <div  style="display:inline-block" class="row">
-                        <div class="col">
+                        <div class="col" style="display: inline-block;">
                             <div class="form-group">
-                                <input type="text" class="form-control" style="display: inline-block;" placeholder="School Rankings"  onchange="func()"> 
+                                <input type="text" class="form-control" style="display: inline-block;" placeholder="School Rankings" value="1" onchange="func()"> 
                                 
-                                <input type="text" class="form-control" style="display: inline-block;" placeholder="Youngest Child Age"  onchange="func()"> 
+                                <input type="text" class="form-control" style="display: inline-block;" placeholder="Youngest Child Age" value="2" onchange="func()"> 
+                                <input type="text" class="form-control" style="display: inline-block;" placeholder="Num Children" value="6" onchange="func()"> 
                                 <p> </p>                                                            
-                                <input type="text" class="form-control" placeholder="Safety (Crime rate)"  onchange="func()">
+                                <input type="text" class="form-control" placeholder="Safety (Crime rate)" value = "9" onchange="func()">
                                 <p> </p>
-                                <input type="text" class="form-control" placeholder="Income (Annual)"  onchange="func()">
+                                <input type="text" class="form-control" style="display: inline-block;" placeholder="Income (Annual)" value="160000" onchange="func()">
+                                <input type="text" class="form-control" style="display: inline-block;" placeholder="Income Priority" value="6" onchange="func()">
                                 <p> </p>                                                            
-                                <input type="text" class="form-control" placeholder="Parks"  onchange="func()">
+                                <input type="text" class="form-control" placeholder="Parks" value="10" onchange="func()">
                                 <p> </p>
-                                <input type="text" class="form-control" placeholder="Air Quality Necessary"  onchange="func()">
+                                <input type="text" class="form-control" placeholder="Air Quality Necessary" value="4" onchange="func()">
                                 <p> </p>
                                
                                 
 
-                                <input type="text" class="form-control" placeholder="Proximity to Hospital"  onchange="func()">
+                                <input type="text" class="form-control" placeholder="Proximity to Hospital" value="7" onchange="func()">
                                 <p> </p>    
                                 <input type="text" class="form-control" style="display: inline-block;" placeholder="Latitude" value="47.6062 N"> 
                                 
@@ -80,39 +82,35 @@
                             <div class="form-check-radio">
                                 <label class="form-check-label">
                                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="1" >
-                                    <strong>Liberal</strong>
+                                    Liberal
                                     <span class="form-check-sign"></span>
                                 </label>
                             </div>
                             <div class="form-check-radio">
                                 <label class="form-check-label" style="padding-right: 3rem">
                                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="-1" checked>
-                                    <strong>Conservative</strong>
+                                    Conservative
                                     <span class="form-check-sign"></span>
                                 </label>
                             </div>
                         </div>
 
                         <div style="display: inline-block;">
-                                <input type="text" class="form-control" placeholder="Priority">
+                                <input type="text" class="form-control" placeholder="Priority" value = "9">
                                                                 <p> </p>
                         </div>
                             </div>
 
 
                         </div>
-                       
-                        
-                        
+
+                    </div>
+                   
+
+                    <div class="col" style="display: inline;" id="imagePlaceholder">
                     </div>
 
-                    <div style="display:inline-block">
-                                <p>
-                                    BOTTOM TEXT
-                                    <br>
-                                    Gamers Rise UP
-                                </p>
-                    </div>
+
                     
                     <div id="buttons">
                         
@@ -121,7 +119,7 @@
                         <div class="row">
                             <div class="col-md-8">
                                
-                                <button type="button" class="btn btn-outline-danger" onclick="func()">Recompute</button>
+                                <button type="button" class="btn btn-outline-danger" onclick="loadImage()">Recompute</button>
                       
                             </div>
                         </div>
@@ -158,7 +156,11 @@
 
 <script>
     function func() {
-        alert("HI");
+        //alert("HI");
+    }
+
+    function loadImage() {
+    	document.getElementById('imagePlaceholder').innerHTML = "<img src = 'https://i.imgur.com/DuPCexM.jpg' style='display: inline-block;' alt = 'Best Places To Live' width='35%'>";
     }
 </script>
 <!-- Core JS Files -->
